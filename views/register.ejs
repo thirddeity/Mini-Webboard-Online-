@@ -1,0 +1,23 @@
+<%- include('header') %>
+
+<form action="/register" method="post">
+    <div>
+        <label class="mt-4"> Name </label>
+        <input type="text" name="name" class="form-control">
+    </div>
+    <div>
+        <label class="mt-2"> Username </label>
+        <input type="text" name="user" class="form-control">
+    </div>
+    <div>
+        <label class="mt-2"> Password </label>
+        <input type="password" name="pass" class="form-control">
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary mt-3">
+            Register
+        </button>
+    </div>
+</form>
+
+<%- include('footer') %>
